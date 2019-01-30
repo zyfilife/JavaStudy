@@ -102,7 +102,7 @@ public class ShopManager {
 		System.out.println("选择的是修改功能");
 		System.out.println("请输入商品的编号");
 		
-		Scanner sc = new Scanner(System.in);
+		var sc = new Scanner(System.in);
 		int ID = sc.nextInt();
 		//遍历集合,获取每个FruitItem变量
 		for(int i = 0 ; i < array.size(); i++){
@@ -118,11 +118,12 @@ public class ShopManager {
 				System.out.println("输入新的商品价格");
 				item.price = sc.nextDouble();
 				System.out.println("商品修改成功");
+				sc.close();
 				return ;
 			}
 		}
-		System.out.println("输入的编号不存在");
 		sc.close();
+		System.out.println("输入的编号不存在");
 	}
 	
 	private static void deleteProduct() {

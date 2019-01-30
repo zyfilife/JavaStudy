@@ -3,7 +3,6 @@ package com.zhuyifeng.demo001;
 import java.io.File;
 import java.io.FileFilter;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 
 public class FileDemo {

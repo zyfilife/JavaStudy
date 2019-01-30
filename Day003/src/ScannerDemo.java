@@ -9,6 +9,7 @@ public class ScannerDemo {
 		System.out.println(i+100);
 		String s = sc.next();
 		System.out.println(s+1);
+		sc.close();
 		
 	}
 
