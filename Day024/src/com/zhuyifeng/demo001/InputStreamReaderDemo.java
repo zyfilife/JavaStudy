@@ -17,7 +17,7 @@ public class InputStreamReaderDemo {
 		int len = 0;
 		var c = new char[1024];
 		try {
-			fi = new FileInputStream("/Users/zhuyifeng/Desktop/a.text");
+			fi = new FileInputStream("/Volumes/Macintosh/传智播客黑马JavaEE32期就业班/2016年北京黑马最新基础班/day31/day31_code/讲师代码/gjp/src/cn/itcast/gjp/view/MainView.java");
 			//默认GBK, UTF-8
 			isr = new InputStreamReader(fi, "GBK");
 			while ((len = isr.read(c)) != -1) {
