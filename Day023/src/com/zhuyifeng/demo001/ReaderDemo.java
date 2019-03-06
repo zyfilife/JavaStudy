@@ -1,11 +1,6 @@
 package com.zhuyifeng.demo001;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.util.ArrayList;
+import java.io.*;
 
 public class ReaderDemo {
 	
@@ -109,7 +104,8 @@ public class ReaderDemo {
 //						find(file2.getPath(), "dot");
 //						find(file2.getPath(), "Tie");
 //						find(file2.getPath(), "fermata");
-						find(file2.getPath(), "staccato");
+//						find(file2.getPath(), "staccato");
+						find(file2.getPath(), "8va");
 					}
 				}
 			}
