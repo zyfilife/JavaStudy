@@ -7,9 +7,7 @@ public class ReaderDemo {
 	private static int i = 0;
 	
 	public static void main(String[] args) {
-		
 		getAllMuseFile("/Users/zhuyifeng/Documents/希韵/曲谱资源/规范好的曲谱");
-		
 	}
 	
 	public static void find(String path, String containString) {
@@ -105,7 +103,8 @@ public class ReaderDemo {
 //						find(file2.getPath(), "Tie");
 //						find(file2.getPath(), "fermata");
 //						find(file2.getPath(), "staccato");
-						find(file2.getPath(), "8va");
+//						find(file2.getPath(), "8va");
+						find(file2.getPath(), "grace");
 					}
 				}
 			}
